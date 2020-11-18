@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>IndeFruit</title>
+    <meta name="viewport" content="width=device-width" />
+    <link type='text/css' rel='stylesheet' href='css/fonts.css'>
+    <link type='text/css' rel='stylesheet' href='css/mainGrid.css'>
+    <link type='text/css' rel='stylesheet' href='css/style.css'>
+    <script src="https://kit.fontawesome.com/1d34f28fe5.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="main-bg-color">
+    <header class="full-width ">
+        <hr class="top_border-bar">
+        <div class="d-flex inner-content-header header-bg-color">
+            <h3 class="text-white Gotham-Medium">IndieFruit</h3>
+            <h3 class="text-white Gotham-light">Only The Best For The Summer</h3>
+        </div>
+        <div class="d-flex logo-container">
+        <img class="logo-img" src="./img/logo.png" alt="Indie fruit Logo">
+        </div>
+    </header>
+
+    <section id="product_container" class="main-container">
+
+        <div class="d-flex">
+            <div class="col-12">
+                <h3 class="subheader Gotham-light text-dark"><div>Top Fruits</div></h3>
+            </div>
+        </div>
+
+            <div class="modal-container cover-all Gotham-Book cover-all--trans-grey" id="product-modal">
+        <div class="modal-buy-now" role="dialog">
+            <div class="mod-container">
+                <i class="fas fa-times" id="remove-modal"></i>
+                <div class="mod-header">
+                    <p class=" text-mute">Basket</p>
+                </div>
+                <div class="mod-body d-flex">
+                    <div class="col-12">
+                        <h3 class="Gotham-Medium text-black header-styling-modal" id="prod_name_modal"> <span id="prod_country_modal" class="Gotham-Light text-mute"> kjh</span> </h3>
+                        <div class="col-12 col-md-6">
+                            <img id="prod_img_modal" class="flex-img-fruit" src="./img/mangoes.png" alt="picture of mangoes">
+                        </div>
+                        <p id="prod_desc_modal" class="p-styling-product-modal text-mute">A mango is a juicy stone fruit (drupe) produced
+                            </p>
+                    </div>
+                </div>
+
+                <div class="price-flag-modal price-flag--green">
+                    <span class="prod_price_modal text-white Gotham-Medium"></span>
+                </div>
+                <div class="mod-footer d-flex">
+                    <button type="button" id="buy-now" class="btn btn--green text-white">Buy Now</button>
+                    <p class="prod_price_modal"><span class="text-mute">Total:</span> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>  
+    <script type='text/javascript' src='js/script.js'></script>
+</body>
+
+</html>
