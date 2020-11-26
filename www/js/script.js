@@ -32,18 +32,18 @@ const products = [
 
 const product_container = document.getElementById("product_container");
 let load_modal = false;
-let prod_name_modal = document.getElementById("prod_name_modal");
-let prod_country_modal = document.getElementById("prod_country_modal");
-let prod_img_modal = document.getElementById("prod_img_modal");
-let prod_desc_modal = document.getElementById("prod_desc_modal");
-let prod_price_modal = document.getElementsByClassName("prod_price_modal");
+const prod_name_modal = document.getElementById("prod_name_modal");
+const prod_country_modal = document.getElementById("prod_country_modal");
+const prod_img_modal = document.getElementById("prod_img_modal");
+const prod_desc_modal = document.getElementById("prod_desc_modal");
+const prod_price_modal = document.getElementsByClassName("prod_price_modal");
 
 
 const captured_modal = document.getElementById("product-modal");
 const buy_now = document.getElementById("buy-now");
 
 //to be populated when buying
-let empty_prod = {
+const empty_prod = {
     id: 0,
     product : "",
     price : 0,
